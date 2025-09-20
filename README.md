@@ -1,4 +1,26 @@
-# Salesforce Project - Leave Tracker App
+# Current Project Status
+Phase 1: Problem Understanding & Requirements: Complete
+
+Phase 2: Org Setup & Configuration: Complete
+
+Phase 3: Data Modeling & Relationships: Complete
+
+Phase 4: Process Automation (Admin): Not Started
+
+Phase 5: Apex Programming (Developer): Not Started
+
+Phase 6: User Interface Development: Not Started
+
+Phase 7: Integration & External Access: Not Started
+
+Phase 8: Data Management & Deployment: Not Started
+
+Phase 9: Reporting, Dashboards & Security Review: Not Started
+
+Phase 10: Final Presentation & Delivery: Not Started
+
+
+## Salesforce Project - Leave Tracker App
 
 This repository contains my Salesforce Leave Tracker capstone projec.
 
