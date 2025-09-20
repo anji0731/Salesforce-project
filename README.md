@@ -1,3 +1,11 @@
+# Salesforce Project - Leave Tracker App
+
+This repository contains my Salesforce Leave Tracker App project.
+
+## Project Documentation
+You can view the full documentation here:  
+[Click here to open Google Doc](https://docs.google.com/document/d/1eVC8uJEWHhLEBpZxbIhLQaiBj1SMUSgegaTd3MN68sk/edit?tab=t.0#heading=h.y2995cnn5dwm)
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
