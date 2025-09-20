@@ -10,14 +10,10 @@ This is a custom Leave Management application built on the Salesforce Platform u
 
 
 ## 1.Problem Statement
-Start with a strong, clear problem statement. This shows that you understand the business context and are not just building a technical artifact.
-
 Problem Statement:
 The company is currently managing all employee leave requests manually through email and spreadsheets. This system is inefficient and prone to errors, leading to double-booked time off, lost requests, and a lack of real-time visibility. This project aims to create a centralized, automated system to streamline the entire leave management process and ensure accuracy.
 
 ## 2.Technology Stack
-List the technologies you used. This is crucial for your mentor and for future employers to see your technical skills at a glance.
-
 Technology Stack:
 
 Platform: Salesforce
@@ -31,8 +27,6 @@ Database: Salesforce Platform (Custom Objects & Fields)
 Tools: Salesforce CLI, Visual Studio Code, Git, GitHub
 
 ## 3.Key Features
-Expand on the features we've already discussed. Be specific about what each feature does.
-
 Key Features:
 
 Leave Request Submission: A user-friendly LWC form for employees to submit new leave requests with an intuitive date picker.
@@ -47,20 +41,12 @@ Robust Backend Logic: Apex triggers to prevent any overlapping leave requests fo
 
 Data Modeling: Implementation of the Leave_Request__c custom object and its relationships to the User object.
 
-## 4.Installation and Setup
-This is a critical section for any collaborative project. It shows that your work is easy to set up and use.
-
-Installation and Setup:
-
-Clone the Repository:
-git clone https://github.com/anji0731/Salesforce-project.git
-
-Authorize Your Salesforce Org:
-sfdx force:auth:web:login
-
-Deploy Source to Your Org:
-sfdx force:source:deploy --sourcepath force-app
-
-Assign Permission Sets: Assign the appropriate permission sets to users to access the Leave_Request__c object and the Lightning components.
-
-Add to a Lightning Page: Use the Lightning App Builder to drag and drop the leaveTracker component onto an App Page.
+### 4. Installation and Setup
+1.  **Clone the Repository:**
+    `git clone https://github.com/anji0731/Salesforce-project.git`
+2.  **Authorize Your Salesforce Org:**
+    `sfdx force:auth:web:login`
+3.  **Deploy Source to Your Org:**
+    `sfdx force:source:deploy --sourcepath force-app`
+4.  **Assign Permission Sets:** Assign the appropriate permission sets to users to access the `Leave_Request__c` object and the Lightning components.
+5.  **Add to a Lightning Page:** Use the Lightning App Builder to drag and drop the `leaveTracker` component onto an App Page.
