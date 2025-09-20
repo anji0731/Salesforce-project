@@ -19,14 +19,16 @@ Phase 9: Reporting, Dashboards & Security Review: Not Started
 
 Phase 10: Final Presentation & Delivery: Not Started
 
+## Project Documentation
+You can view the full documentation here:  
+[Click here to open Google Doc](https://docs.google.com/document/d/1eVC8uJEWHhLEBpZxbIhLQaiBj1SMUSgegaTd3MN68sk/edit?tab=t.0#heading=h.y2995cnn5dwm)
+
 
 ## Salesforce Project - Leave Tracker App
 
 This repository contains my Salesforce Leave Tracker capstone projec.
 
-## Project Documentation
-You can view the full documentation here:  
-[Click here to open Google Doc](https://docs.google.com/document/d/1eVC8uJEWHhLEBpZxbIhLQaiBj1SMUSgegaTd3MN68sk/edit?tab=t.0#heading=h.y2995cnn5dwm)
+
 
 This is a custom Leave Management application built on the Salesforce Platform using Lightning Web Components (LWC). This project was created to address the inefficiencies of manual leave tracking and provides a centralized, automated system for employees and managers.
 
