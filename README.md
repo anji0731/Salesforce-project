@@ -8,13 +8,14 @@ You can view the full documentation here:
 
 This is a custom Leave Management application built on the Salesforce Platform using Lightning Web Components (LWC). This project was created to address the inefficiencies of manual leave tracking and provides a centralized, automated system for employees and managers.
 
-1. **Problem Statement**
+
+## 1.Problem Statement
 Start with a strong, clear problem statement. This shows that you understand the business context and are not just building a technical artifact.
 
 Problem Statement:
 The company is currently managing all employee leave requests manually through email and spreadsheets. This system is inefficient and prone to errors, leading to double-booked time off, lost requests, and a lack of real-time visibility. This project aims to create a centralized, automated system to streamline the entire leave management process and ensure accuracy.
 
-2. **Technology Stack**
+## 2.Technology Stack
 List the technologies you used. This is crucial for your mentor and for future employers to see your technical skills at a glance.
 
 Technology Stack:
@@ -29,7 +30,7 @@ Database: Salesforce Platform (Custom Objects & Fields)
 
 Tools: Salesforce CLI, Visual Studio Code, Git, GitHub
 
-3. **Key Features**
+## 3.Key Features
 Expand on the features we've already discussed. Be specific about what each feature does.
 
 Key Features:
@@ -46,7 +47,7 @@ Robust Backend Logic: Apex triggers to prevent any overlapping leave requests fo
 
 Data Modeling: Implementation of the Leave_Request__c custom object and its relationships to the User object.
 
-4. **Installation and Setup**
+## 4.Installation and Setup
 This is a critical section for any collaborative project. It shows that your work is easy to set up and use.
 
 Installation and Setup:
