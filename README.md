@@ -1,6 +1,6 @@
 # Salesforce Project - Leave Tracker App
 
-This repository contains my Salesforce Leave Tracker App project.
+This repository contains my Salesforce Leave Tracker capstone projec.
 
 ## Project Documentation
 You can view the full documentation here:  
@@ -10,43 +10,45 @@ This is a custom Leave Management application built on the Salesforce Platform u
 
 
 ## 1.Problem Statement
-Problem Statement:
-The company is currently managing all employee leave requests manually through email and spreadsheets. This system is inefficient and prone to errors, leading to double-booked time off, lost requests, and a lack of real-time visibility. This project aims to create a centralized, automated system to streamline the entire leave management process and ensure accuracy.
+
+Currently, the company handles employee leave requests through emails and spreadsheets. This causes mistakes like double bookings, lost requests, and no real-time tracking. A centralized automated system is needed to make leave management easier and more accurate.
 
 ## 2.Technology Stack
-Technology Stack:
 
-Platform: Salesforce
+**Platform**: Salesforce
 
-Frontend: Lightning Web Components (LWC), HTML, CSS
+**Frontend**: Lightning Web Components (LWC), HTML, CSS
 
-Backend: Apex (for server-side logic and queries)
+**Backend**: Apex (for server-side logic and queries)
 
-Database: Salesforce Platform (Custom Objects & Fields)
+**Database**: Salesforce Platform (Custom Objects & Fields)
 
-Tools: Salesforce CLI, Visual Studio Code, Git, GitHub
+**Tools**: Salesforce CLI, Visual Studio Code, Git, GitHub
 
 ## 3.Key Features
-Key Features:
 
-Leave Request Submission: A user-friendly LWC form for employees to submit new leave requests with an intuitive date picker.
+**Leave Request Submission**: A user-friendly LWC form for employees to submit new leave requests with an intuitive date picker.
 
-Automated Validation: Custom validation rules to prevent submitting requests with incorrect dates.
+**Automated Validation**: Custom validation rules to prevent submitting requests with incorrect dates.
 
-Real-time Visibility: An LWC that displays an employee's leave history in a sortable data table, with a real-time status update.
+**Real-time Visibility**: An LWC that displays an employee's leave history in a sortable data table, with a real-time status update.
 
-Manager Approvals: A custom approval process that automatically routes requests to the appropriate manager.
+**Manager Approvals**: A custom approval process that automatically routes requests to the appropriate manager.
 
-Robust Backend Logic: Apex triggers to prevent any overlapping leave requests for the same employee, ensuring data integrity.
+**Robust Backend Logic**: Apex triggers to prevent any overlapping leave requests for the same employee, ensuring data integrity.
 
-Data Modeling: Implementation of the Leave_Request__c custom object and its relationships to the User object.
+**Data Modeling**: Implementation of the `Leave_Request__c` custom object and its relationships to the `User` object.
 
 ### 4. Installation and Setup
 1.  **Clone the Repository:**
     `git clone https://github.com/anji0731/Salesforce-project.git`
+
 2.  **Authorize Your Salesforce Org:**
     `sfdx force:auth:web:login`
+
 3.  **Deploy Source to Your Org:**
     `sfdx force:source:deploy --sourcepath force-app`
+
 4.  **Assign Permission Sets:** Assign the appropriate permission sets to users to access the `Leave_Request__c` object and the Lightning components.
+
 5.  **Add to a Lightning Page:** Use the Lightning App Builder to drag and drop the `leaveTracker` component onto an App Page.
