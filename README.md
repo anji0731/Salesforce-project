@@ -39,7 +39,7 @@ Currently, the company handles employee leave requests through emails and spread
 
 **Data Modeling**: Implementation of the `Leave_Request__c` custom object and its relationships to the `User` object.
 
-### 4. Installation and Setup
+## 4. Installation and Setup
 1.  **Clone the Repository:**
     `git clone https://github.com/anji0731/Salesforce-project.git`
 
