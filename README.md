@@ -6,21 +6,60 @@ This repository contains my Salesforce Leave Tracker App project.
 You can view the full documentation here:  
 [Click here to open Google Doc](https://docs.google.com/document/d/1eVC8uJEWHhLEBpZxbIhLQaiBj1SMUSgegaTd3MN68sk/edit?tab=t.0#heading=h.y2995cnn5dwm)
 
-# Salesforce DX Project: Next Steps
+This is a custom Leave Management application built on the Salesforce Platform using Lightning Web Components (LWC). This project was created to address the inefficiencies of manual leave tracking and provides a centralized, automated system for employees and managers.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+1. **Problem Statement**
+Start with a strong, clear problem statement. This shows that you understand the business context and are not just building a technical artifact.
 
-## How Do You Plan to Deploy Your Changes?
+Problem Statement:
+The company is currently managing all employee leave requests manually through email and spreadsheets. This system is inefficient and prone to errors, leading to double-booked time off, lost requests, and a lack of real-time visibility. This project aims to create a centralized, automated system to streamline the entire leave management process and ensure accuracy.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+2. **Technology Stack**
+List the technologies you used. This is crucial for your mentor and for future employers to see your technical skills at a glance.
 
-## Configure Your Salesforce DX Project
+Technology Stack:
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Platform: Salesforce
 
-## Read All About It
+Frontend: Lightning Web Components (LWC), HTML, CSS
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Backend: Apex (for server-side logic and queries)
+
+Database: Salesforce Platform (Custom Objects & Fields)
+
+Tools: Salesforce CLI, Visual Studio Code, Git, GitHub
+
+3. **Key Features**
+Expand on the features we've already discussed. Be specific about what each feature does.
+
+Key Features:
+
+Leave Request Submission: A user-friendly LWC form for employees to submit new leave requests with an intuitive date picker.
+
+Automated Validation: Custom validation rules to prevent submitting requests with incorrect dates.
+
+Real-time Visibility: An LWC that displays an employee's leave history in a sortable data table, with a real-time status update.
+
+Manager Approvals: A custom approval process that automatically routes requests to the appropriate manager.
+
+Robust Backend Logic: Apex triggers to prevent any overlapping leave requests for the same employee, ensuring data integrity.
+
+Data Modeling: Implementation of the Leave_Request__c custom object and its relationships to the User object.
+
+4. **Installation and Setup**
+This is a critical section for any collaborative project. It shows that your work is easy to set up and use.
+
+Installation and Setup:
+
+Clone the Repository:
+git clone https://github.com/anji0731/Salesforce-project.git
+
+Authorize Your Salesforce Org:
+sfdx force:auth:web:login
+
+Deploy Source to Your Org:
+sfdx force:source:deploy --sourcepath force-app
+
+Assign Permission Sets: Assign the appropriate permission sets to users to access the Leave_Request__c object and the Lightning components.
+
+Add to a Lightning Page: Use the Lightning App Builder to drag and drop the leaveTracker component onto an App Page.
